@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.min.js"></script>
+    <style>
+        * {margin:0; padding:0;}
+        a {text-decoration:none; color:#000;}
+        .btn {width:200px; font-size:18px; font-weight:700; color:#fff; background-color:rgb(255, 132, 0, 0.5); padding:15px; border-radius:30px; text-align:center;}
+        .btn:hover {opacity:0.7;}
+
+
+        @media (max-width:599px){
+            #wrap {width:100%; height:auto; border:2px solid #e79a9a; margin:0 auto;  padding:30px; display:flex; flex-direction:column; justify-content:center; align-items:center;}
+        .box {width:90%; height:450px; background-color:gold; margin:20px; display:flex; flex-direction:column; align-items:center;}
+        .imgbox {width:100%; height:50%;}
+        .box img {width:100%; height:100%;}
+        .text {width:60%; display:flex; flex-flow:column wrap; text-align:center; align-items:center;}
+        }
+
+        @media (min-width:600px){
+            #wrap {width:1000px; height:auto; border:2px solid #e79a9a;margin:0 auto;  padding:30px; display:flex; flex-direction:column; justify-content:center; align-items:center;}
+        .box {width:800px; height:250px; background-color:gold; margin:20px; display:flex; justify-content:center;}
+        .imgbox {width:40%; height:100%;}
+        .box img {width:100%; height:100%;}
+        .text {width:60%; display:flex; flex-flow:column wrap; text-align:center; justify-content:space-evenly; align-content:center; align-items:center;}
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+
+
+        <a href="#" class="box">
+            <div class="imgbox">
+                <img src="https://images.unsplash.com/photo-1608731002187-d3448d224d18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+            </div>
+
+            <div class="text">
+                <h2>오늘의 메뉴</h2>
+                <p>김밥 치즈김밥 참치김밥 돈가스김밥 날치알김밥 불고기김밥 멸치김밥 고추장김밥 민초김밥 커피김밥 김김밥밥</p>
+                <span class="btn">배고프다</span>
+            </div>
+        </a>
+
+
+
+        <a href="#" class="box">
+            <div class="imgbox">
+                <img src="https://images.unsplash.com/photo-1590005031487-03c7f56ef7d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=878&q=80">
+                </div>
+
+            <div class="text">
+                <h2>오늘의 메뉴</h2>
+                <p>삶은계란 구운계란 계란후라이 계란말이 오므라이스  토마토계란탕 오믈렛 계란빵 스크램블에그 써니싸이드업</p>
+                <span class="btn">배고프다</span>
+            </div>
+        </a>
+    </div>
+</body>
+</html>

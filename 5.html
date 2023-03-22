@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin:0; box-sizing:border-box;}
+        .btn {width: 70%; display: flex; margin-top: 5px; padding: 10px 20px; box-shadow: 0 0 0 1px #888;
+        border: solid 3px currentColor; border-radius: 6px; cursor:pointer;
+        background-color: #A7A37E; color: #fff; font-size: 14px; }
+
+    .btn:hover{opacity: 0.8;}
+
+        @media(max-width:599px){
+            #wrap {width:100%; height:auto; margin:0 auto; padding:30px; border:2px solid #666; display:flex; justify-content:center; flex-direction:column;}
+        .box {width:95%; height:450px; margin:10px; background-color:gold; display:flex; flex-direction:column;}
+        .imgbox {width:100%; height:50%; overflow:hidden;}
+        .imgbox img {width:100%; height:100%;}
+        .text {width:100%; height:50%; display:flex; flex-direction:column; justify-content:space-around; padding:20px;} 
+        }
+
+        @media(min-width:600px){
+            #wrap {width:1200px; height:auto; margin:0 auto; padding:30px; border:2px solid #666; display:flex; justify-content:center; }
+        .box {width:850px; height:250px; margin:10px; background-color:gold; display:flex;}
+        .imgbox {width:40%; height:100%; overflow:hidden;}
+        .imgbox img {width:100%; height:100%;}
+        .text {width:60%; height:100%; display:flex; flex-direction:column; justify-content:space-around; padding:20px;} 
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box">
+            <div class="imgbox">
+                <img src="img/img_1.jpg">
+            </div>
+            <div class="text">
+                <h3>야채키우기 일기</h3>
+                <p>최근 키우고있는 야채들이 무럭무럭 자라고 있어요.
+                재미로 야채 키우는 것을 일기로 작성해보겠습니다.
+            </p>
+            <span class="btn">자세한 설정 살펴보기</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgbox">
+                <img src="img/img_1.jpg">
+            </div>
+            <div class="text">
+                <h3>야채키우기 일기</h3>
+                <p>최근 키우고있는 야채들이 무럭무럭 자라고 있어요.
+                재미로 야채 키우는 것을 일기로 작성해보겠습니다.
+            </p>
+            <span class="btn">자세한 설정 살펴보기</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

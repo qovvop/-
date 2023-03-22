@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin:0; box-sizing:border-box;}
+        .imgbox img:hover {transform:scale(1.2);}
+
+        @media (max-width:599px) {
+            #wrap {width:100%; height:auto; margin:0 auto; padding:30px; border:2px solid #666; display:flex; justify-content:center; flex-direction:column;}
+        .box {width:90%; height:400px; margin:10px; background-color:gold;}
+        .imgbox {width:100%; height:50%; overflow:hidden;}
+        .imgbox img {width:100%; height:100%; transform:scale(1); transition:0.3s;}
+        .text {width:100%; height:50%;}
+        }
+
+        @media (min-width:600px) {
+            #wrap {width:1000px; height:auto; margin:0 auto; padding:30px; border:2px solid #666; display:flex; justify-content:center; }
+        .box {width:300px; height:400px; margin:10px; background-color:gold;}
+        .imgbox {width:100%; height:50%; overflow:hidden;}
+        .imgbox img {width:100%; height:100%; transform:scale(1); transition:0.3s;}
+        .text {width:100%; height:50%;}
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box">
+            <div class="imgbox">
+                <img src="img/img_1.jpg">
+            </div>
+            <div class="text">
+                <h3>야채키우기 일기</h3>
+                <p>최근 키우고있는 야채들이 무럭무럭 자라고 있어요.
+                재미로 야채 키우는 것을 일기로 작성해보겠습니다.
+            </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgbox">
+                <img src="img/img_1.jpg">
+            </div>
+            <div class="text">
+                <h3>야채키우기 일기</h3>
+                <p>최근 키우고있는 야채들이 무럭무럭 자라고 있어요.
+                재미로 야채 키우는 것을 일기로 작성해보겠습니다.
+            </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgbox">
+                <img src="img/img_1.jpg">
+            </div>
+            <div class="text">
+                <h3>야채키우기 일기</h3>
+                <p>최근 키우고있는 야채들이 무럭무럭 자라고 있어요.
+                재미로 야채 키우는 것을 일기로 작성해보겠습니다.
+            </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
